@@ -16,7 +16,6 @@ public class Cab {
         this.cabID = cabID;
         this.model = model;
         this.mileage = mileage;
-        this.availableStatus = availableStatus;
         this.price = price;
         this.capacity = capacity;
         this.imgPath = imgPath;
@@ -81,7 +80,7 @@ public class Cab {
     @Override
     public String toString() {
         return "Cab{" +
-                "cabID='" + cabID + '\'' +
+                "cabiD='" + cabiD + '\'' +
                 ", model='" + model + '\'' +
                 ", mileage='" + mileage + '\'' +
                 ", availableStatus='" + availableStatus + '\'' +
