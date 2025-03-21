@@ -6,18 +6,18 @@ import java.util.Date;
 public class Customer {
     private String customerId;
     private String customerName;
-    private String address;
+   
     private String nic;
-    private String email;
-    private String telephoneNo;
+    private String Email;
+    private String TelephoneNo;
 
-    private String userName;
-    private String password;
-    private String registrationNo;
-    private Date registrationDate;
-    private LocalTime registrationTime;
-    private Date updatedDate;
-    private LocalTime updatedTime;
+    private String UserName;
+    private String Password;
+    private String RegistrationNo;
+    private Date RegistrationDate;
+    private LocalTime RegistrationTime;
+    private Date UpdatedDate;
+    private LocalTime UpdatedTime;
 
     public Customer() {
     }
