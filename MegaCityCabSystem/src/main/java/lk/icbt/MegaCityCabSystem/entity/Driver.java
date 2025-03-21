@@ -2,7 +2,7 @@ package lk.icbt.MegaCityCabSystem.entity;
 
 public class Driver {
 
-    private String driverID;
+  
     private String driverName;
     private String mobileNo;
     private String license;
@@ -20,7 +20,7 @@ public class Driver {
     }
 
     public String getDriverID() {
-        return driverID;
+        return DriverID;
     }
 
     public void setDriverID(String driverID) {
