@@ -22,8 +22,8 @@ public class CustomerDTO {
     }
 
     public CustomerDTO(String customerId, String customerName, String address, String nic, String email, String telephoneNo, String userName, String password, String registrationNo, Date registrationDate, LocalTime registrationTime, Date updatedDate, LocalTime updatedTime) {
-        this.customerId = customerId;
-        this.customerName = customerName;
+        this.customerId = CustomerId;
+        this.customerName = CustomerName;
         this.address = address;
         this.nic = nic;
         this.email = email;
@@ -34,8 +34,7 @@ public class CustomerDTO {
         this.registrationDate = registrationDate;
         this.registrationTime = registrationTime;
         this.updatedDate = updatedDate;
-        this.updatedTime = updatedTime;
-    }
+        
 
     public String getCustomerId() {
         return customerId;
@@ -144,7 +143,7 @@ public class CustomerDTO {
     @Override
     public String toString() {
         return "CustomerDTO{" +
-                "customerId='" + customerId + '\'' +
+                "customerId='" + CustomerId + '\'' +
                 ", customerName='" + customerName + '\'' +
                 ", address='" + address + '\'' +
                 ", nic='" + nic + '\'' +
