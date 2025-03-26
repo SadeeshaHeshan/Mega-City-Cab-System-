@@ -2,7 +2,6 @@ package lk.icbt.MegaCityCabSystem.dto;
 
 public class CabDTO {
     private String cabID;
-    private String model;
     private String mileage;
     private String availableStatus;
     private Double price;
